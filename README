@@ -1,1 +1,15 @@
 Standalone Active Record
+
+This takes the ActiveRecord and Database Library from 2.1.0 and makes it work without the rest of CI.
+
+Just configure database.php 
+
+then include active_init.php
+
+and $db will be set to what is usually $this->db or $this->CI->db in CI
+
+$dbforge will be setup as well
+
+Documentopia.com
+
+
