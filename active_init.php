@@ -8,9 +8,9 @@
 * arising from, out of or in connection with Documentopia.com LLC or the use or other
 * dealings with Documentopia.com LLC.
 *
-* Licensed under Creative Commons
-* Attribution-ShareAlike 3.0
-* http://creativecommons.org/licenses/by-sa/3.0/
+* Apache License, Version 2.0 
+* http://www.apache.org/licenses/LICENSE-2.0 
+
 *
 * @link http://www.documentopia.com/licensing
 *
