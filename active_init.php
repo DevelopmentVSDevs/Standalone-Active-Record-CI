@@ -22,9 +22,11 @@
 define('DB_DEBUG', true);
 define('DB_LOAD_FORGE', true);
 
+error_reporting(E_ALL & ~(E_DEPRECATED | E_STRICT));
+
 // This should be the base path to the database folder
 if ( ! defined('BASEPATH')) {
-	define(BASEPATH, pathinfo(__FILE__, PATHINFO_DIRNAME).'/');
+	define('BASEPATH', pathinfo(__FILE__, PATHINFO_DIRNAME).'/');
 	}
 
 function get_instance() {
@@ -67,7 +69,7 @@ if (DB_LOAD_FORGE) {
 
 // At this point $db is set to the databaes adnd $dbforge is set to dbforge
 
-$query = $db->get('site');
+$query = $db->get('table_name');
 $row = $query->result_array();
 print_r($row);
 
